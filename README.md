@@ -1,36 +1,19 @@
-Word document -> Project document 
+1. Overview of this project :
+   
+In the world of pokemon, where the user should be able to search for different pokemons, you have to create an application to search them with the following functionalities:
 
-1. Heading of the project 
-
-      Concepts : 
-          "react": "^17.0.2",
-          "react-dom": "^17.0.2",
-          "react-paginate": "^8.1.0",
-          "react-scripts": "5.0.0",
-           "JSON Data"
-          
-2. Overview of this project :
-            Diagram:
-            ![pokemon project](https://user-images.githubusercontent.com/94758608/154741750-69388957-2542-4339-bb57-13a126a46570.PNG)
-            
-            Application Screenshot:
-            
-            ![Overview](https://user-images.githubusercontent.com/94758608/154747491-7658f592-2c2e-4b83-ae20-fc779a65a522.PNG)
+The Pokemon application should have the list of pokemon details which will be provided in the form of JSON data i.e., it should have name, image, CP, attack, defense type etc.
+It should have a search bar so that user can search the pokemon based on the name of pokemon.
+Since we have many pokemon, apply pagination, so that user can only see 10 pokemon at a time.
        
-3.  Project git Repositories:
+2.  Project git Repository:
  
-      1. Link :https://github.com/Eswar30/Pokemon-Project
-      2. Clone git :https://github.com/Eswar30/Pokemon-Project.git
-      3. Screenshot 
-      ![EswarProject](https://user-images.githubusercontent.com/94758608/154742473-fe3332d9-b435-4caa-b0f6-3a70285d29b4.PNG)
+  Link :https://github.com/snigdhaj03/pokeman.git
+ 
          
-4. How to run project: 
-      4.1. Clone project 
-                  Clone git : https://github.com/Eswar30/Pokemon-Project.git
-      4.2 Open src -->Component -->data-->to run this command npm install after use this command npm start .
-            Before open the project need to install these packages : npx create-react-app pokeman, npm install react-paginate. 
+3. How to run project: 
+    3.1 Open src -->Component -->data-->Run npm install and then npm start.
+    Before open the project need to install these packages : npx create-react-app pokeman, npm install react-paginate. 
             
-5. Output screenshot:
-      To search the pokemon list : For example : Bulbasaur
+    3.2 To search the pokemon list : For example : Bulbasaur
       
-      ![Pokemon search](https://user-images.githubusercontent.com/94758608/154746897-ce6ea4da-c15d-4a1f-922c-836de7068302.PNG)
